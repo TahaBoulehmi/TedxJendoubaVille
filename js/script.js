@@ -139,14 +139,14 @@
 
     // Instagram feed setup
 
-    var instaFeed = new Instafeed({
-        get: 'user',
-        userId: '305801553',
-        accessToken: '305801553.1677ed0.3d872300c10c4ff687868875ee8abc5d',
-        limit: 6,
-        template: '<li class="col-sm-4"><a href="{{link}}"><img src="{{image}}"/></a></li>'
-    });
-    instaFeed.run();
+    // var instaFeed = new Instafeed({
+    //     get: 'user',
+    //     userId: '305801553',
+    //     accessToken: '305801553.1677ed0.3d872300c10c4ff687868875ee8abc5d',
+    //     limit: 6,
+    //     template: '<li class="col-sm-4"><a href="{{link}}"><img src="{{image}}"/></a></li>'
+    // });
+    // instaFeed.run();
 
 
     // Form validation 

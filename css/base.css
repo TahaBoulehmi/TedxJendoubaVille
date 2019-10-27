@@ -717,6 +717,12 @@ a[href^="https://maps.google.com/maps"] {
     width: 17px;
 }
 
+.redx {
+    color: #E63D3A;
+    text-align: center;
+    width: 35px;
+}
+
 .team-img {
     border-radius: 50%;
     height: 150px; 
@@ -729,6 +735,11 @@ a[href^="https://maps.google.com/maps"] {
     -moz-filter: grayscale(1);
     -ms-filter: grayscale(1);
     -o-filter: grayscale(1);
+    transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
 }
 
 .team:hover {
@@ -741,4 +752,24 @@ a[href^="https://maps.google.com/maps"] {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     -moz-transform: scale(1.1);
+    transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
 }
+
+    @media (max-width: 500px) {
+        #logo {
+            width: 70%;
+            height: 70%;
+        }
+      }
+    
+
+    @media (max-width: 900px) {
+        #logo {
+            width: 50%;
+            height: 50%;
+        }
+      }
