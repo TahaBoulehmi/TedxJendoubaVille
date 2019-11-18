@@ -420,7 +420,6 @@ input[type="submit"] textarea,
 .block-img .background-img,
 .block-detail .block-text,
 .block-detail,
-.block-sponsor img,
 .block-gallery li {
     transition: all 0.3s ease 0s;
     -webkit-transition: all 0.3s ease 0s;
