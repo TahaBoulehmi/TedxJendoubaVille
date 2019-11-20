@@ -763,6 +763,10 @@ a[href^="https://maps.google.com/maps"] {
             width: 70%;
             height: 70%;
         }
+        .background-img img {
+            width: 10%;
+            height: 10%;
+        }
       }
     
 
@@ -770,5 +774,9 @@ a[href^="https://maps.google.com/maps"] {
         #logo {
             width: 50%;
             height: 50%;
+        }
+        .background-img img {
+            width: 10%;
+            height: 10%;
         }
       }
